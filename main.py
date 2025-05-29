@@ -466,10 +466,10 @@ while cap.isOpened():
         elif key == 27:  # ESC
             break
 
-    cv2.imshow("Catch the Blue Ball", frame)
+    cv2.imshow("Game Tangkap Bola", frame)
     
     # Cek jika window ditutup
-    if cv2.getWindowProperty("Catch the Blue Ball", cv2.WND_PROP_VISIBLE) < 1:
+    if cv2.getWindowProperty("Game Tangkap Bola", cv2.WND_PROP_VISIBLE) < 1:
         break
     
     # ESC untuk keluar
