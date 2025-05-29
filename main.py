@@ -272,16 +272,13 @@ def draw_game_ui(frame, iw, remaining_time):
     # Score text
     draw_text_with_shadow(frame, f": {score}", (155, 40), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 2)
     
-    # Removed speed indicator
-    # Removed level indicator
-    
-    # Instruksi game dengan warna yang dipilih
+    # Instruksi game dengan warna yang dipilih - POSISI DIPINDAH KE BAWAH
     draw_text_with_shadow(frame, "Ayo! Tangkap bola warna", 
-                         (iw//2 - 150, 50), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255, 255, 255), 2)
+                         (iw//2 - 150, 120), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255, 255, 255), 2)
     if selected_ball_color:
         color_name = color_names[selected_ball_color]
         draw_text_with_shadow(frame, color_name, 
-                             (iw//2 - len(color_name)*15, 80), cv2.FONT_HERSHEY_SIMPLEX, 1.2, (255, 255, 0), 3)
+                             (iw//2 - len(color_name)*15, 150), cv2.FONT_HERSHEY_SIMPLEX, 1.2, (255, 255, 0), 3)
 
 def draw_end_screen(frame, iw, ih, win):
     # Semi-transparent overlay
