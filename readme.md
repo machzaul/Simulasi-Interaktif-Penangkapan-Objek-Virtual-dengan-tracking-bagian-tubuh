@@ -332,7 +332,6 @@ ball_images = {
 | File gambar tidak muncul | Cek path file, pastikan format PNG dengan transparency |
 | Error saat install MediaPipe | Update pip: `pip install --upgrade pip` |
 
-```html
 </table>
 ```
 
@@ -379,7 +378,6 @@ Kami menyambut kontribusi dari developer lain! Berikut cara berkontribusi:
 
 ## 📄 Lisensi
 
-```html
 <div style="background-color: #e7f3ff; padding: 16px; border-radius: 6px; border-left: 4px solid #2196f3;">
 <strong>📜 Informasi Lisensi:</strong>
 </div>
@@ -407,7 +405,6 @@ copies or substantial portions of the Software.
 
 ## 👨‍💻 Pengembang
 
-```html
 <div align="center">
   <h3>🚀 Dikembangkan oleh:</h3>
   <a href="https://github.com/deborasihombing">
@@ -440,7 +437,6 @@ Terima kasih kepada:
 
 ---
 
-```html
 <div align="center">
   <h3>⭐ Jika proyek ini membantu, jangan lupa beri star! ⭐</h3>
   <a href="https://github.com/machzaul/Simulasi-Interaktif-Penangkapan-Objek-Virtual-dengan-tracking-bagian-tubuh">
