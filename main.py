@@ -41,6 +41,7 @@ start_time = 0
 lobby_selection_time = 0
 selection_duration = 2.0  # 2 detik untuk memilih
 
+<<<<<<< HEAD
 # Konfigurasi untuk spacing bola
 MIN_BALL_DISTANCE = 120  # Jarak minimum antar bola
 MAX_SPAWN_ATTEMPTS = 50  # Maksimum percobaan spawn untuk menghindari infinite loop
@@ -51,6 +52,8 @@ BASE_SPEED_MAX = 6
 SPEED_INCREASE_RATE = 0.5  # Peningkatan kecepatan per 10 detik
 MAX_SPEED_TIME = 40  # Waktu maksimum untuk peningkatan kecepatan (detik)
 
+=======
+>>>>>>> 6796d73acc6070e8ff784e6f4f486bf07168237c
 # Mapping warna untuk tampilan
 color_names = {
     (255, 0, 0): "BIRU",
@@ -68,6 +71,7 @@ def reset_game():
     show_lobby = False
     selected_ball_color = None
     balls = []
+<<<<<<< HEAD
 
 def get_current_speed_range():
     """Menghitung range kecepatan berdasarkan waktu yang telah berlalu"""
@@ -95,6 +99,8 @@ def check_ball_collision(new_x, new_y, existing_balls):
             if distance < MIN_BALL_DISTANCE:
                 return True
     return False
+=======
+>>>>>>> 6796d73acc6070e8ff784e6f4f486bf07168237c
 
 def create_ball():
     """Membuat bola baru dengan posisi yang tidak bertabrakan"""
@@ -187,7 +193,11 @@ def draw_lobby_screen(frame, iw, ih, nose_tip_x, nose_tip_y):
     # Cek posisi kepala untuk menentukan pilihan
     if nose_tip_x is not None and nose_tip_y is not None:
         for ball_option in ball_positions:
+<<<<<<< HEAD
             distance = ((nose_tip_x - ball_option["pos"][0])**2 + (nose_tip_y - ball_option["pos"][1])**2)**0.5
+=======
+            distance = ((nose_tip_x - ball_option["pos"][0])*2 + (nose_tip_y - ball_option["pos"][1])2)*0.5
+>>>>>>> 6796d73acc6070e8ff784e6f4f486bf07168237c
             if distance < 80:  # Radius deteksi
                 current_selection = ball_option["color"]
                 
@@ -272,9 +282,12 @@ def draw_game_ui(frame, iw, remaining_time):
     # Score text
     draw_text_with_shadow(frame, f": {score}", (155, 40), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 2)
     
+<<<<<<< HEAD
     # Removed speed indicator
     # Removed level indicator
     
+=======
+>>>>>>> 6796d73acc6070e8ff784e6f4f486bf07168237c
     # Instruksi game dengan warna yang dipilih
     draw_text_with_shadow(frame, "Ayo! Tangkap bola warna", 
                          (iw//2 - 150, 50), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255, 255, 255), 2)
@@ -364,11 +377,17 @@ while cap.isOpened():
             game_started = True
             show_lobby = False
             start_time = time.time()
+<<<<<<< HEAD
             # Buat 3 bola awal dengan jarak yang aman
             balls = []
             for _ in range(3):
                 new_ball = create_ball()
                 balls.append(new_ball)
+=======
+            # Buat 4 bola awal
+            for _ in range(4):
+                balls.append(create_ball())
+>>>>>>> 6796d73acc6070e8ff784e6f4f486bf07168237c
         
         key = cv2.waitKey(1) & 0xFF
         if key == 27:  # ESC untuk kembali ke menu utama
