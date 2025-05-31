@@ -11,6 +11,15 @@
 </div>
 
 ---
+## Contributors
+
+| Nama   |  Nim |
+| :-----   |    ---:   |
+|     Machzaul Harmansyah    |  122140172  |
+|     Putri Diana Sari Rambe   |   122140052   |
+|     Debora Sihombing   |   122140032   |
+
+---
 
 ## Logbook Mingguan
 
