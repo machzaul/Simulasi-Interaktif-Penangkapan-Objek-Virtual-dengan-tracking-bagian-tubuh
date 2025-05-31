@@ -11,10 +11,13 @@
 </div>
 
 ---
+
+Logbook Mingguan
+
 | Minggu   |  Kegiatan |
 | :-----   |    ---:   |
-| 1 |UI / UX|
-|2|Logic|
+|     1    |  UI / UX  |
+|     2    |   Logic   |
 
 ---
 
