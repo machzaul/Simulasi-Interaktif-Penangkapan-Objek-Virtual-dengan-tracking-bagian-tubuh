@@ -11,6 +11,12 @@
 </div>
 
 ---
+| Minggu   |  Kegiatan |
+| :-----   |    ---:   |
+|    1     |  UI / UX  |
+|    2     |   Logic   |
+
+---
 
 ## 📋 Deskripsi Proyek
 
