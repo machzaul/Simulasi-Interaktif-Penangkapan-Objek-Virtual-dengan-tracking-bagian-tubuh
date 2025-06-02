@@ -15,6 +15,7 @@
 
 [![Watch the video](https://img.youtube.com/vi/GWXbVWAhaMg/hqdefault.jpg)](https://youtu.be/GWXbVWAhaMg)
 
+**Tekan untuk melihat videonya!**
 
 ---
 ## Contributors
